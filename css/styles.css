@@ -7,6 +7,11 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-hero {
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
 .section-work {
   padding-bottom: 94px;
 }
@@ -85,9 +90,11 @@ body {
 
 .header-mail:hover {
   color: #2196f3;
+  fill: #2196f3;
 }
 .header-mail:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .header-tel {
@@ -100,16 +107,15 @@ body {
 
 .header-tel:hover {
   color: #2196f3;
+  fill: #2196f3;
 }
 .header-tel:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .header-icon {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 50px;
 }
 /*---------section1-----*/
 
@@ -212,24 +218,12 @@ body {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.about-pictures-list {
+
+.about-soc-icon {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
-}
-
-.about-pictures-item {
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: #F5F4FA;
-}
-
-.about-pictures-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 25px;
+  margin-left: 102.34px;
 }
 
 /*---------section3-----*/
@@ -289,6 +283,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.team-content {
   padding-bottom: 16px;
 }
 
@@ -364,11 +361,16 @@ margin-bottom: 50px;
 }
 .client-icon {
   fill: #AFB1B8;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 16px;
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-icon:hover,
+.client-icon:focus {
   fill: #2196F3;
+  color: #2196f3;
 }
 
 /*---------footer-----*/
@@ -429,13 +431,17 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-bottom: 50px;
+display: flex;
+
+justify-content: center;
 }
 
 .footer-soc-list {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    padding-bottom: 30px;
+    margin-top: 72px;
+    margin-bottom: 100px;
 }
 
 .footer-soc-link {
@@ -455,6 +461,13 @@ color: #FFFFFF;
 
 .footer-soc-icon {
   fill: #FFFFFF;
+}
+
+.fo
+
+.footer-soc {
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -514,6 +527,12 @@ color: #FFFFFF;
 
 .menu-link {
   background-color: #eeeeee;
+  display: block;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);;
 }
 
 .menu-item {
@@ -521,6 +540,8 @@ color: #FFFFFF;
   border: 1px solid #eeeeee;
   border-top: none;
 }
+
+
 
 .footer-address {
   font-style: normal;
