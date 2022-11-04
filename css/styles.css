@@ -10,6 +10,7 @@ body {
 .section-hero {
   padding-bottom: 200px;
   padding-top: 200px;
+  width: 1600px;
 }
 
 .section-work {
@@ -94,6 +95,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 
 .header-mail:hover {
@@ -111,6 +114,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 
 .header-tel:hover {
@@ -228,32 +233,15 @@ body {
 
 .about-item-1 {
   flex-basis: calc((100% - 90px) / 4);
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: #F5F4FA;
-  margin-bottom: 20px;
 }
 .about-item-2 {
   flex-basis: calc((100% - 90px) / 4);
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: #F5F4FA;
 }
 .about-item-3 {
   flex-basis: calc((100% - 90px) / 4);
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: #F5F4FA;
 }
 .about-item-4 {
   flex-basis: calc((100% - 90px) / 4);
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: #F5F4FA;
 }
 
 
@@ -265,6 +253,15 @@ body {
   margin-bottom: 25px;
   margin-left: 100px;
   margin-right: 10opx;
+}
+
+.about-icon {
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
 }
 
 /*---------section3-----*/
@@ -291,6 +288,8 @@ body {
 }
 .team-link {
   background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-img {
@@ -484,6 +483,7 @@ margin-bottom: 20px;
 
 .foter {
   display: flex;
+  align-items: baseline;
   gap: 70px;
 }
 
@@ -554,6 +554,7 @@ margin-bottom: 20px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-bottom: 4px;
 }
 
 .menu-text {
@@ -572,7 +573,6 @@ margin-bottom: 20px;
 }
 
 .menu-link {
-  background-color: #eeeeee;
   display: block;
 }
 
